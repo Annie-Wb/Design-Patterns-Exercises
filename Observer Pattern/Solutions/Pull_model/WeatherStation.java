@@ -10,6 +10,7 @@ public class WeatherStation {
         observers.add(o);
     }
 
+    // Needed for pull model.
     public float getTemperature() { return temperature; }
 
     // Remove an observer
@@ -25,7 +26,7 @@ public class WeatherStation {
 
     private void notifyObservers() {
         for (Observer o : observers) {
-            o.update();  // Push model
+            o.update();  // Pull model
         }
     }
 }

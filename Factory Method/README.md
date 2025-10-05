@@ -16,4 +16,3 @@ Create shapes without exposing concrete classes.
 
 - Define `Shape` interface.
 - Factory returns Shape.
-- Use enum/type parameter.

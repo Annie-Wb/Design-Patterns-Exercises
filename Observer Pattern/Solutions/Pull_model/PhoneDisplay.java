@@ -5,6 +5,6 @@ public class PhoneDisplay implements Observer{
     
     @Override
     public void update() {
-        System.out.println("[Phone] Temperature Updated: " + station.getTemperature());
+        System.out.println("[Phone] Temperature: " + station.getTemperature());
     }
 }

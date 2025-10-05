@@ -5,6 +5,6 @@ public class LEDDisplay implements Observer{
 
     @Override
     public void update() {
-        System.out.println("[LED Panel] Now showing temperature: " + station.getTemperature());
+        System.out.println("[LED Display] Temperature: " + station.getTemperature());
     }
 }
