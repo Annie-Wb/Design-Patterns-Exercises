@@ -21,3 +21,7 @@ Whenever the temperature changes, multiple displays (e.g. PhoneApp, LEDPanel) sh
 # Solution
 
 Two types of solutions are provided, see Solutions.
+
+# Inspiration:
+
+https://refactoring.guru/design-patterns/observer
